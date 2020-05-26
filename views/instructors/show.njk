@@ -2,10 +2,10 @@
 
 {% block content %}
 
-<head><title>Gym Manager</title></head>
+<head><title>Gym Manager - Instructors</title></head>
 
 <div class="card">
-    <section class="avatar" style="background: url(https://source.unsplash.com/collection/3652543/500x500) no-repeat center center / cover "></section>
+    <section class="avatar" style="background: url({{instructor.avatar_url}}) no-repeat center center / cover "></section>
     
     <section class="details">
         
@@ -13,31 +13,36 @@
         
         <div class="item">
             <div>instructor</div>
-            <div>Ivan Lins</div>
+            <div>{{instructor.name}}</div>
         </div>
         
         <div class="item">
             <div>age</div>
-            <div>29 years</div>
+            <div>{{instructor.age}} years</div>
         </div>
         
         <div class="item">
             <div>gender</div>
-            <div>Male</div>
+            <div>{{ "Male" if instructor.gender == "M" else "Female"}}</div>
         </div>
         
         <div class="item">
             <div>skills</div>
             <div>
-                <span>Bodybuilding</span>
-                <span>Crossfit</span>
+                {% for skill in instructor.skills%}
+                <span>{{skill}}</span>
+                {% endfor%}
+                
             </div>
         </div>
         
         <div class="item">
             <div>since</div>
-            <div>01/01/2019</div>
+            <div>{{instructor.created_at}}</div>
         </div>
+
+        <a href="/instructors/{{ instructor.id}}/edit" class="button">Editar</a>
+
     </section>
 </div>
 
