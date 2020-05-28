@@ -4,7 +4,7 @@
 
 <head><title>Gym Manager - Edit</title></head>
 
-<form class="card" method="PUT" action="/instructors">
+<form class="card" method="POST" action="/instructors?_method=PUT">
     <section class="avatar" style="background: url({{instructor.avatar_url}}) no-repeat center center / cover "></section>
     
     <section class="details">
@@ -13,7 +13,10 @@
 
         {% include 'instructors/fields.njk'%}
 
-            
+            <input 
+                type="hidden"
+                name="id"
+                value="{{instructor.id}}">
 
     </section>
 </form>
