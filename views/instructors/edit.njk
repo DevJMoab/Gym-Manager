@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<head><title>Gym Manager - Edit</title></head>
+
+<form class="card" method="PUT" action="/instructors">
+    <section class="avatar" style="background: url({{instructor.avatar_url}}) no-repeat center center / cover "></section>
+    
+    <section class="details">
+        
+        <h3>Edit Instructor</h3>
+
+        {% include 'instructors/fields.njk'%}
+
+            
+
+    </section>
+</form>
+
+{% endblock content %}
