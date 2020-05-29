@@ -6,44 +6,17 @@
       "name": "Johan Moab Souza",
       "birth": 623894400000,
       "gender": "M",
-      "skills": "Musculação, Spinning, Natação, Boxing, Karatê, Judô, Krav magá",
-      "created_at": 1590688946409
-    },
-    {
-      "id": 2,
-      "avatar_url": "https://images.unsplash.com/photo-1520334363269-c1b342d17261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      "name": "Fran Souza",
-      "birth": 765763200000,
-      "gender": "F",
-      "skills": "Spinning, Natação",
+      "skills": "Musculação, CrossFit, Spinning, Natação, Boxing, Karatê, Judô, Krav magá",
       "created_at": 1590501358981
     },
     {
-      "id": 3,
-      "avatar_url": "http://ergerg.com",
-      "name": "Jamal",
-      "birth": 298339200000,
-      "gender": "M",
-      "skills": "Musculação, CrossFit",
-      "created_at": 1590688946409
-    },
-    {
-      "id": 4,
-      "avatar_url": "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      "name": "Johan Moab Souza",
-      "birth": 623894400000,
-      "gender": "M",
-      "skills": "Musculação, CrossFit, Spinning, Natação, Boxing, Karatê, Judô, Krav magá",
-      "created_at": 1590689954999
-    },
-    {
-      "id": 5,
-      "avatar_url": "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-      "name": "Johan Moab Souzaa",
-      "birth": 813196800000,
-      "gender": "M",
-      "skills": "Musculação, CrossFit, Spinning, Natação, Boxing, Karatê, Judô, Krav magá",
-      "created_at": 1590691684016
+      "id": "2",
+      "avatar_url": "https://images.unsplash.com/photo-1520334363269-c1b342d17261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Fran Souza",
+      "birth": 797299200000,
+      "gender": "F",
+      "skills": "Spinning, Natação",
+      "created_at": 1590501358981
     }
   ]
 }

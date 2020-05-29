@@ -16,6 +16,7 @@
 --dark-white: #BCAFAA;
 --dark-white2: rgba(179, 166, 162, 0.5);
 --orange: #FA5807;
+--orange2: rgb(245, 105, 105);
 --yellow: #caae0ed8;
 }
 
@@ -183,4 +184,9 @@ a.button{
     display: block;
     text-align: center;
     text-decoration: none;
+}
+
+#form-delete button[type="submit"]{
+    margin-top: 8px;
+    background: var(--orange2);
 }
