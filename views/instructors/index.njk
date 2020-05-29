@@ -4,41 +4,30 @@
 
 <head><title>Gym Manager</title></head>
 
-<div class="card">
-    <section class="avatar" style="background: url(https://source.unsplash.com/collection/3652543/500x500) no-repeat center center / cover "></section>
+<div class="card table-container">
     
-    <section class="details">
-        
-        <h3>Details</h3>
-        
-        <div class="item">
-            <div>instructor</div>
-            <div>Ivan Lins</div>
-        </div>
-        
-        <div class="item">
-            <div>age</div>
-            <div>29 years</div>
-        </div>
-        
-        <div class="item">
-            <div>gender</div>
-            <div>Male</div>
-        </div>
-        
-        <div class="item">
-            <div>skills</div>
-            <div>
-                <span>Bodybuilding</span>
-                <span>Crossfit</span>
-            </div>
-        </div>
-        
-        <div class="item">
-            <div>since</div>
-            <div>01/01/2019</div>
-        </div>
-    </section>
+    <table width=100%>
+        <thead>
+            <tr>
+                <th>Instructor</th>
+                <th>Skill</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for instructor in instructors %}
+            <tr>
+                <td><span style="background-image: url({{instructor.avatar_url}}}})"></span>{{instructor.name}}</td>
+                <td>{{instructor.skills}}</td>
+                <td><a href="/instructors/{{instructor.id}}">View</a></td>
+            </tr>
+            {% endfor %}       
+        </tbody>
+
+    </table>
+
+
 </div>
 
 {% endblock content %}

@@ -190,3 +190,66 @@ a.button{
     margin-top: 8px;
     background: var(--orange2);
 }
+
+/*-------------------Index----------------------*/
+
+table{
+    border-spacing: 0;
+}
+
+.table-container thead tr th{
+    text-align: left;
+}
+
+.table-container{
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+td, th{
+    padding: 16px;
+    border-bottom: 1px solid var(--smooth-brown);
+}
+
+th{
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-size: 18px;
+    text-shadow: 0.5px 0.5px 1px  rgba(25,25,25,0.7);
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+tbody tr td:first-child{
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+}
+
+tbody tr td:first-child span{
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 3px 1px 6px -4px var(--dark1);
+}
+
+tbody tr td:last-child a{
+    background-color: var(--yellow);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--dark1);
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.table-container thead tr th:last-child, td:last-child{
+    text-align: center;
+}
+
+

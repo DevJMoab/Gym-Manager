@@ -1,8 +1,8 @@
 {
-  "name": "gym-manager",
+  "name": "modulo4",
   "version": "1.0.0",
   "description": "",
-  "main": "instructors.js",
+  "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p nodemon browsersync",
     "nodemon": "nodemon server.js",
