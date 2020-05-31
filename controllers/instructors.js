@@ -82,8 +82,8 @@ exports.edit = function(req, res){
 
     const instructor = {
         ...foundInstructor,
-        birth: date(foundInstructor.birth),
-        created_at: date(foundInstructor.created_at)
+        birth: date(foundInstructor.birth).iso,
+        created_at: date(foundInstructor.created_at).iso
     }
 
     return res.render("instructors/edit", { instructor })

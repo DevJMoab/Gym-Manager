@@ -1,5 +1,17 @@
 {
-  "members": [],
+  "members": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1520334363269-c1b342d17261?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Johan Moab Souza",
+      "email": "engjmoab@gmail.com",
+      "birth": 1579046400000,
+      "gender": "M",
+      "blood": "A+",
+      "weight": "80",
+      "height": "180"
+    }
+  ],
   "instructors": [
     {
       "id": 1,
