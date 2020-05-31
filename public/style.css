@@ -42,6 +42,7 @@ header{
 
 .links{
     font-size: 18px;
+    
 }
 
 .links a + a {
@@ -84,7 +85,7 @@ header{
     background-color: var(--white);
     width: 800px;
     min-height: 400px;
-    margin: 45px auto;
+    margin: 16px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 0px 2px 10px -2px var(--dark-white2);
@@ -238,7 +239,7 @@ tbody tr td:first-child span{
     box-shadow: 3px 1px 6px -4px var(--dark1);
 }
 
-tbody tr td:last-child a{
+tbody tr td:last-child a, .table-container > a{
     background-color: var(--yellow);
     padding: 8px 16px;
     text-decoration: none;
@@ -247,6 +248,12 @@ tbody tr td:last-child a{
     font-size: 12px;
     border-radius: 6px;
 }
+
+.table-container > a{
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
 
 .table-container thead tr th:last-child, td:last-child{
     text-align: center;
